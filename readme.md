@@ -19,7 +19,7 @@ Laravel package providing remote access to a Bukkit server console using JS/PHP/
 
 
 ##### Installation
-Composer:
+Add to composer.json requirements:
 ```JSON
 "requires": {
     "radic/bukkit-swift-api": "dev-master",
@@ -27,7 +27,7 @@ Composer:
 }
 ```
 
-Register:
+Register Laravel service providers:
 ```php
 'providers' => array(
     'Radic\BukkitSwiftApi\BukkitSwiftApiServiceProvider',
@@ -35,7 +35,7 @@ Register:
 )
 ```
 
-Publish:
+Publish all zeh stuff:
 ```Batchfile
 php artisan config:publish radic/bukkit-console
 php artisan asset:publish radic/bukkit-console
@@ -43,9 +43,10 @@ php artisan view:publish radic/bukkit-console
 ```
 
 ##### Using
+The standard route is (http://yoursite/bukkit-console')
 
-###### As is
-The standard route is (http://yoursite/bukkit-console') 
+##### Configuration
+There's hardly any config, accept for the JS terminal. Will write something here later on
 ```php
 // config.php
 array(
@@ -53,14 +54,6 @@ array(
     'cmd' => array('bukkit-console', 'Radic\BukkitConsole\Controllers\ConsoleController@cmd')
 )
 ```
-
-
-###### Extending
-Tbd
-
-
-###### Configuration
-There's hardly any config, accept for the JS terminal. Will write something here later on
 
 
 ##### Further reading
