@@ -1,10 +1,18 @@
 ## Laravel Bukkit Console
-Laravel package providing remote access to a Bukkit server console using JS/PHP/Laravel and the SwiftAPI Bukkit plugin
+Laravel package providing remote access to a Bukkit server console using JS/PHP/Laravel and the SwiftAPI Bukkit plugin.
+
+
 
 ##### Preview screenshots
-screenshots
+[Screen 1](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
+[Screen 2](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
+[Screen 3](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
+![Screen 1](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
+![Screen 2](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
+![Screen 3](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
 
-### Version 0.1.0 Beta
+
+### Version 1.0.0
 [View changelog and todo](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/changelog.md)
 
 ##### Requirements

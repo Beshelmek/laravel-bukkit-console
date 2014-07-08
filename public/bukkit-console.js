@@ -43,7 +43,8 @@ var BukkitConsole = function(){
                     success: function(data, status){
                         console.log(data);
                         if(data.success){
-                            _.each(data.messages, function(message){
+                            $.each(data.messages, function(index, message){
+                                //console.log(message);
                                 var date = new Date(message.timestamp);
                                 term.echo(new String(date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ' [' + message.level + '] ' + message.message));
                             });

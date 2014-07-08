@@ -1,7 +1,10 @@
 ### Changelog
 
+##### 1.0.0
+First release
+
 ##### 0.1.0
 Initial pre-alpha release
 
 ### Todo
-- a lot
+- Doubting if further adjustments are needed.

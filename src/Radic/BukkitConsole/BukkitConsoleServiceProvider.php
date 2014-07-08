@@ -1,6 +1,8 @@
 <?php namespace Radic\BukkitConsole;
 
 use Illuminate\Support\ServiceProvider;
+use Route;
+use Config;
 
 class BukkitConsoleServiceProvider extends ServiceProvider {
 
@@ -18,7 +20,7 @@ class BukkitConsoleServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		// include routes
 	}
 
 	/**
@@ -30,5 +32,17 @@ class BukkitConsoleServiceProvider extends ServiceProvider {
 	{
 		return array();
 	}
+
+    public function boot()
+    {
+        $this->package('radic/bukkit-console', 'radic/bukkit-console');
+
+
+        Route::group(array(), function(){
+            $routes = Config::get('radic/bukkit-console::routes');
+            Route::get($routes['view'][0], $routes['view'][1]);
+            Route::post($routes['cmd'][0], $routes['cmd'][1]);
+        });
+    }
 
 }
