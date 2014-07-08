@@ -47,12 +47,18 @@ The standard route is (http://yoursite/bukkit-console')
 
 ##### Configuration
 There's hardly any config, accept for the JS terminal. Will write something here later on
+
+###### Routing
 ```php
 // config.php
 array(
     'view' => array('bukkit-console', 'Radic\BukkitConsole\Controllers\ConsoleController@index'),
     'cmd' => array('bukkit-console', 'Radic\BukkitConsole\Controllers\ConsoleController@cmd')
 )
+// BukkitConsoleServiceProvider.php
+$routes = Config::get('radic/bukkit-console::routes');
+Route::get($routes['view'][0], $routes['view'][1]);
+Route::post($routes['cmd'][0], $routes['cmd'][1]);
 ```
 
 
