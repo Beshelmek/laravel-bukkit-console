@@ -37,7 +37,7 @@ class BukkitConsoleServiceProvider extends ServiceProvider {
     {
         $this->package('radic/bukkit-console', 'radic/bukkit-console');
 
-
+        if($this->app['config']['radic/bukkit-console::auto_boot'] === false) return;
         Route::group(array(), function(){
             $routes = Config::get('radic/bukkit-console::routes');
             Route::get($routes['view'][0], $routes['view'][1]);
