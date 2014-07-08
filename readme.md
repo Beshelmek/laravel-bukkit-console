@@ -15,12 +15,12 @@ screenshots
 
 ##### Installation
 Require with composer:
-`
+```Batchfile
 composer require radic/bukkit-console
 php artisan config:publish radic/bukkit-console
 php artisan asset:publish radic/bukkit-console
 php artisan view:publish radic/bukkit-console
-`
+```
 
 ##### Configuration
 
