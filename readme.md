@@ -4,12 +4,9 @@ Laravel package providing remote access to a Bukkit server console using JS/PHP/
 
 
 ##### Preview screenshots
-[Screen 1](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
-[Screen 2](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
-[Screen 3](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
-![Screen 1](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
-![Screen 2](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
-![Screen 3](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
+[![Screen 1](http://i.imgur.com/uEkDzmgs.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
+[![Screen 2](http://i.imgur.com/D4nUPY3s.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
+[![Screen 3](http://i.imgur.com/SMLPHf5s.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
 
 
 ### Version 1.0.0
@@ -39,8 +36,9 @@ php artisan view:publish radic/bukkit-console
 - [Bukkit SwiftAPI Reposiotry](https://bitbucket.org/phybros/swiftapi). Repository for the SwiftApi Bukkit Java plugin.
 
 ### Credits
-- [Robin Radic](https://github.com/RobinRadic) created [Laravel Bukkit SwiftApi](https://github.com/RobinRadic/laravel-bukkit-console)
+- [Robin Radic](https://github.com/RobinRadic) created [Laravel Bukkit SwiftApi](https://github.com/RobinRadic/laravel-bukkit-swiftapi)
 - [Phybros](http://dev.bukkit.org/profiles/phybros) created [Bukkit SwiftAPI](http://dev.bukkit.org/bukkit-plugins/swiftapi)
+- [Jakub Jankiewicz](http://jcubic.pl) created [jQuery Terminal](http://terminal.jcubic.pl)
 
 ### License
 [Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
