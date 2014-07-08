@@ -1,5 +1,8 @@
 ## Laravel Bukkit Console
-description
+Laravel package providing remote access to a Bukkit server console using JS/PHP/Laravel and the SwiftAPI Bukkit plugin
+
+##### Preview screenshots
+screenshots
 
 ### Version 0.1.0 Beta
 [View changelog and todo](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/changelog.md)
@@ -14,8 +17,10 @@ description
 Require with composer:
 `
 composer require radic/bukkit-console
+php artisan config:publish radic/bukkit-console
+php artisan asset:publish radic/bukkit-console
+php artisan view:publish radic/bukkit-console
 `
-
 
 ##### Configuration
 
@@ -30,4 +35,4 @@ composer require radic/bukkit-console
 - [Phybros](http://dev.bukkit.org/profiles/phybros) created [Bukkit SwiftAPI](http://dev.bukkit.org/bukkit-plugins/swiftapi)
 
 ### License
-GNU General Public License version 3 (GPLv3)
+[Do What the Fuck You Want to Public License](http://www.wtfpl.net/)

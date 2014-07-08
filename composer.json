@@ -1,6 +1,6 @@
 {
     "name": "radic/bukkit-console",
-    "description": "..",
+    "description": "Laravel package providing remote access to a Bukkit server console using JS/PHP/Laravel and the SwiftAPI Bukkit plugin",
     "homepage": "https://github.com/RobinRadic/laravel-bukkit-console",
     "keywords": ["minecraft", "bukkit", "swiftapi", "laravel", "console"],
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -18,7 +18,8 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.*"
+        "illuminate/support": "4.*",
+        "radic/bukkit-swift-api": "dev-master"
     },
     "autoload": {
         "psr-0": {
