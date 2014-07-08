@@ -4,9 +4,9 @@ Laravel package providing remote access to a Bukkit server console using JS/PHP/
 
 
 ##### Preview screenshots
-[![Screen 1](http://i.imgur.com/uEkDzmgs.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
-[![Screen 2](http://i.imgur.com/D4nUPY3s.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
-[![Screen 3](http://i.imgur.com/SMLPHf5s.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
+[![Screen 1](http://i.imgur.com/uEkDzmgs.jpg)](https://raw.github.com/RobinRadic/laravel-bukkit-console/blob/master/ss1.jpg)
+[![Screen 2](http://i.imgur.com/D4nUPY3s.jpg)](https://raw.github.com/RobinRadic/laravel-bukkit-console/blob/master/ss2.jpg)
+[![Screen 3](http://i.imgur.com/SMLPHf5s.jpg)](https://raw.github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
 
 
 ### Version 1.0.1
