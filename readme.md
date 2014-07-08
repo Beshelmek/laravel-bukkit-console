@@ -9,7 +9,7 @@ Laravel package providing remote access to a Bukkit server console using JS/PHP/
 [![Screen 3](http://i.imgur.com/SMLPHf5s.jpg)](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/ss3.jpg)
 
 
-### Version 1.0.0
+### Version 1.0.1
 [View changelog and todo](https://github.com/RobinRadic/laravel-bukkit-console/blob/master/changelog.md)
 
 ##### Requirements
@@ -28,6 +28,7 @@ php artisan view:publish radic/bukkit-console
 ```
 
 ##### Configuration
+There's hardly any config. Might write something here later on
 
 ##### Further reading
 - [Laravel Bukkit SwiftApi](https://github.com/RobinRadic/laravel-bukkit-swiftapi). The SwiftAPI laravel wrapper
@@ -41,4 +42,4 @@ php artisan view:publish radic/bukkit-console
 - [Jakub Jankiewicz](http://jcubic.pl) created [jQuery Terminal](http://terminal.jcubic.pl)
 
 ### License
-[Do What the Fuck You Want to Public License](http://www.wtfpl.net/)
+Laravel Bukkit Console licensed [Do What the Fuck You Want to Public License](http://www.wtfpl.net/)

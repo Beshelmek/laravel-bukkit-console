@@ -1,5 +1,8 @@
 ### Changelog
 
+##### 1.0.1
+Minor presentation adjustments
+
 ##### 1.0.0
 First release
 
