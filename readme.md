@@ -1,4 +1,9 @@
 ## Laravel Bukkit Console
+[![Build Status](https://travis-ci.org/RobinRadic/bukkit-console.svg?branch=master)](https://travis-ci.org/RobinRadic/bukkit-console)
+[![Latest Stable Version](https://poser.pugx.org/radic/bukkit-console/v/stable.svg)](https://packagist.org/packages/radic/bukkit-console)
+[![Total Downloads](https://poser.pugx.org/radic/bukkit-console/downloads.svg)](https://packagist.org/packages/radic/bukkit-console)
+[![Latest Unstable Version](https://poser.pugx.org/radic/bukkit-console/v/unstable.svg)](https://packagist.org/packages/radic/bukkit-console)
+[![License](https://poser.pugx.org/radic/bukkit-console/license.svg)](https://packagist.org/packages/radic/bukkit-console)
 Laravel package providing remote access to a Bukkit server console using JS/PHP/Laravel and the SwiftAPI Bukkit plugin.
 
 
